@@ -1,0 +1,31 @@
+{
+  "name": "Playwright BDD",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cucumber-js --tags @University --exit",
+    "reports": "node report/report.js && node report/report.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "@playwright/test": "^1.36.2",
+    "luxon": "^3.3.0",
+    "rimraf": "^5.0.1"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^9.3.0",
+    "@cucumber/pretty-formatter": "^1.0.0",
+    "chai": "^4.3.7",
+    "cucumber-html-reporter": "^6.0.0",
+    "dayjs": "^1.11.9",
+    "dotenv": "^16.3.1",
+    "mocha": "^10.2.0",
+    "moment": "^2.29.4",
+    "playwright": "^1.36.2",
+    "playwright-core": "^1.36.2"
+  }
+}

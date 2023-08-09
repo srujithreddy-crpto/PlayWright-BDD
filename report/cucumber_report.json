@@ -1,0 +1,136 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "ymgrad;tc_002-user-navigates-to-decision",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "TC_002 User navigates to decision",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 62161024299
+            },
+            "embeddings": [
+              {
+                "data": "https://www.ymgrad.com/account/login/",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 3,
+            "name": "User logins into application",
+            "match": {
+              "location": "stepDefinitions\\login.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42066730098
+            },
+            "embeddings": [
+              {
+                "data": "The UserName entered as sraleti",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "The password entered as YMGrad@90",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "Successfully clicked the login in YMGrad",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "User clicks on \"Decisions\"",
+            "match": {
+              "location": "stepDefinitions\\universities.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5574202100
+            },
+            "embeddings": [
+              {
+                "data": "Successfully clicked the closed button of Upload Profile popup",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "Successfully clicked the Decisions in Home page",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "The The Actual filters of Filters matches with Filters",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "User moves the slider in decision page",
+            "match": {
+              "location": "stepDefinitions\\universities.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 170926768099
+            },
+            "embeddings": [
+              {
+                "data": "Successfully moved the slider",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 69432800
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AllTests",
+            "line": 9
+          },
+          {
+            "name": "@Smoke",
+            "line": 9
+          },
+          {
+            "name": "@YMGrad",
+            "line": 9
+          },
+          {
+            "name": "@University",
+            "line": 9
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "ymgrad",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "YMGrad",
+    "tags": [],
+    "uri": "featureFiles\\universities.feature"
+  }
+]
